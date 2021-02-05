@@ -1,22 +1,16 @@
-var no1 = prompt("Put Value1","0");
-var sign = prompt("Use Calculation Operator","+");
-var no2 = prompt("Put Value2","0");
-var n1 = parseInt(no1);
-var n2 = parseInt(no2);
+var course1 = prompt("Course 1 Marks Out of 100","0");
+var course2 = prompt("Course 2 Marks Out of 100","0");
+var course3 = prompt("Course 3 Marks Out of 100","0");
+var course4 = prompt("Course 4 Marks Out of 100","0");
+var course5 = prompt("Course 5 Marks Out of 100","0"); 
 
-if (sign === "+"){
- alert(n1+n2);
-}
-else if (sign === "-"){
- alert(n1-n2);
-}
-else if (sign === "*"){
- alert(n1*n2);
-}  
-else if (sign === "/"){
- alert(n1/n2);
-}
-else if (sign === "%"){
- alert(n1%n2);
-}
+var c1 = parseInt(course1);
+var c2 = parseInt(course2);
+var c3 = parseInt(course3); 
+var c4 = parseInt(course4);
+var c5 = parseInt(course5);
+
+ alert((c1+c2+c3+c4+c5)/500*100 + "%");
+
+
 
