@@ -1,4 +1,6 @@
-var fname = "Arslan"; 
-var lname = "Butt,";
-var age = 38;
-alert("Hello"+ "  " +fname +" "+lname +" "+"your are"+" "+ age+" "+ "years old"); 
+var cl = [];
+for (var i = 0; i < 5; i++){
+  cl[i] = prompt((i+1)+"- Course Name:") ;
+}
+
+alert(cl);
