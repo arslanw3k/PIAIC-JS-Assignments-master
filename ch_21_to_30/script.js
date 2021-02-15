@@ -1,4 +1,9 @@
-var fname = "Arslan"; 
-var lname = "Butt,";
-var age = 38;
-alert("Hello"+ "  " +fname +" "+lname +" "+"your are"+" "+ age+" "+ "years old"); 
+var a = Number(prompt("Input Decimal Number"));
+var b = Math.ceil(a);
+alert(b);
+var text = "This is my dummy text";
+var t1 = " "
+for (var i = 4; i >= 0; i--){
+  t1 += text[i];
+  }
+alert(t1);
