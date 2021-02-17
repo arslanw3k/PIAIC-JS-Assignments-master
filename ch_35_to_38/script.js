@@ -1,28 +1,20 @@
+//Assignment 1
+function cap(){
+var text = prompt("Type Scentence");
+var lc = text.toLowerCase();
+var str = lc.replace(/(^\w{1})|(\s{1}\w{1})/g, match => match.toUpperCase());
+  return str
+}
 
-        function titleCase(str) {
-            var splitStr = str.toLowerCase().split(' ');
-            for (var i = 0; i < splitStr.length; i++) {
-                splitStr[i] = splitStr[i].charAt(0).toUpperCase() + splitStr[i].substring(1);
-            }
-            return splitStr.join(' ');
-        }
+console.log(cap());
 
-        
-        function factorize(n) {
-            if (n < 0) {
-                return -1;
-            }
-            else if (n == 0) {
-                return 1;
-            }
-            else{
-            return n * factorize(n - 1);
-            }
-        }
-
-        
-
-        let fabNumber = Number(prompt("Enter Number : "));
-        console.log(`Factorization of ${fabNumber} is ${factorize(fabNumber)}`);
-
-   
+//Assignment 2
+function factorialize(n){
+n = Number(prompt("Input"))
+var result = 1
+for (var i=1; i <=n ; i++){
+result*=i;
+}
+return result;
+}
+console.log(factorialize());
